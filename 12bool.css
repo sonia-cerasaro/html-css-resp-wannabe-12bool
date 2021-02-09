@@ -6,7 +6,6 @@
 
 .container {
   max-width: 1170px;
-  height: 100px;
   margin: 0 auto;
   background-color: pink;
   border: black solid 1px;
@@ -14,7 +13,6 @@
 
 .row {
   width: 100%;
-  height: 100%;
   float: left;
   background-color: green;
   /* border: black solid 1px; */
@@ -85,6 +83,57 @@
 .col-12 {
   width: 100%;
 }
+
+/* OFFSET*/
+
+.col-offset-1 {
+  margin-left: calc(100% / 12);
+}
+
+.col-offset-2 {
+  margin-left: calc(100% / 12 * 2);
+}
+
+.col-offset-3 {
+  margin-left: 25%;
+}
+
+.col-offset-4 {
+  margin-left: calc(100% / 12 * 4);
+}
+
+.col-offset-5 {
+  margin-left: calc(100% / 13 * 5);
+}
+
+.col-offset-6 {
+  margin-left: 50%;
+}
+
+.col-offset-7 {
+  margin-left: calc(100% / 12 * 7);
+}
+
+.col-offset-8 {
+  margin-left: calc(100% / 12 * 8);
+}
+
+.col-offset-9 {
+  margin-left: 75%;
+}
+
+.col-offset-10 {
+  margin-left: calc(100% / 12 * 10);
+}
+
+.col-offset-11 {
+  margin-left: calc(100% / 12 * 11);
+}
+
+.col-offset-12 {
+  margin-left: 100%;
+}
+
 
 /* MEDIA XS */
 
