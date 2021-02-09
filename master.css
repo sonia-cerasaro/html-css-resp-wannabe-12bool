@@ -1,7 +1,4 @@
-.content {
-  text-align: center;
-  margin-top: 10px;
-}
+
 
 h1 {
   text-align: center;
@@ -12,6 +9,10 @@ img {
   height: 200px;
 }
 
+.content {
+  text-align: center;
+  margin-top: 10px;
+}
 
 
 
@@ -22,13 +23,17 @@ img {
 
 
 
-
+/*
 @media all and (min-width: 768px)
  and (max-width: 991px) {
 
-   .container.one > .row > .col-md-6 {
+   .col-offset-12 {
+     width: 100%
+   } */
+
+   /* .container.one > .row > .col-md-6 {
      width: 100%;
-   }
+   } */
 
 
 }
