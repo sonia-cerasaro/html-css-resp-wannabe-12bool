@@ -1,0 +1,182 @@
+.row {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 50%;
+  float: left;
+}
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 33%;
+}
+
+#steps {
+  text-align: center;
+}
+
+#steps .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* MEDIA QUERY TABLET*/
+
+@media screen and (max-width: 768px) {
+  .row {
+    width: 450px;
+    margin-top: 0;
+  }
+  }
+
+  @media screen and (max-width: 768px) {
+    #lezioni.container {
+      background-color: #f0efc7;
+    }
+    }
+
+  @media screen and (max-width: 768px) {
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 25%;
+      display: contents;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+      #steps .row>.left,
+      #steps .row>.central,
+      #steps .row>.right {
+        display: contents;
+      }
+      }
+
+    @media screen and (max-width: 768px) {
+      #why.container {
+        background-color: #f0efc7;
+      }
+      }
+
+    @media screen and (max-width: 768px) {
+      #why .row>.first,
+      #why .row>.second,
+      #why .row>.third {
+        width: 50%;
+        margin-top: 0;
+        display: contents;
+      }
+      }
+
+
+/* MEDIA QUERY I-PHONE*/
+
+@media screen and (max-width: 480px) {
+  h1 {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  }
+
+@media screen and (max-width: 480px) {
+  .row {
+    width: 450px;
+  }
+  }
+
+@media screen and (max-width: 480px) {
+  #lezioni.container {
+    background-color: #f0efc7;
+    margin-top: 0;
+  }
+  }
+
+@media screen and (max-width: 480px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 25%;
+    display: contents;
+  }
+  }
+
+  @media screen and (max-width: 480px) {
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      display: contents;
+    }
+    }
+
+  @media screen and (max-width: 480px) {
+    #why.container {
+      background-color: #f0efc7;
+    }
+    }
+
+  @media screen and (max-width: 480px) {
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 50%;
+      margin-top: 0;
+      display: contents;
+    }
+    }

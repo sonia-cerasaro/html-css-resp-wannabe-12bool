@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: pink;
+  border: black solid 1px;
+}
+
+.row.nested {
+  width: 580px;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+[class*="col-"] {
+  float: left;
+  height: 100%;
+  border-left: black solid 1px;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* COLUMNS ROW ONE */
+
+.col-1 {
+  width: calc(100% / 12);
+}
+
+/* COLUMNS ROW TWO */
+
+.col-12 {
+  width: 100%;
+}
+
+/* COLUMNS ROW THREEE */
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
+/* COLUMNS ROW FOUR */
+
+.col-6 {
+  width: 50%;
+}
+
+/* COLUMNS ROW FIVE */
+
+
+
+
+
+
+
+
+
+/*
+
+.col-1 {
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+  width: calc(100% / 13 * 5);
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+  width: 100%;
+} */
