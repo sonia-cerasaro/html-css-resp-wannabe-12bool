@@ -7,8 +7,8 @@
 .container {
   /* max-width: 1170px; */
   /* margin: 0 auto; */
-  background-color: pink;
-  border: black solid 1px;
+  /* background-color: pink;
+  border: black solid 1px; */
 }
 
 .row {
@@ -22,9 +22,9 @@
 
 [class*="col-"] {
   float: left;
-
+/* 
   background-color: yellow;
-  border: black solid 1px;
+  border: black solid 1px; */
 }
 
 .container::after {
